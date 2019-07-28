@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render "Petkan" on after login 1`] = `
+<Login>
+  <div>
+    Login with Petkan
+  </div>
+</Login>
+`;
+
+exports[`should render "no user" on initial render 1`] = `
+<Login>
+  <div>
+    No user
+  </div>
+</Login>
+`;
