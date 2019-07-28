@@ -31,3 +31,38 @@ exports[`mount render 1`] = `
   </div>
 </Menu>
 `;
+
+exports[`mount rerender with user 1`] = `
+<Menu
+  user="Gosho"
+>
+  <div>
+    Hello, Gosho
+    Navigation:
+    <Home>
+      <MenuItem
+        text="Home"
+      >
+        <div>
+          Home
+          <button>
+            Home
+          </button>
+        </div>
+      </MenuItem>
+    </Home>
+    <About>
+      <MenuItem
+        text="About"
+      >
+        <div>
+          About
+          <button>
+            About
+          </button>
+        </div>
+      </MenuItem>
+    </About>
+  </div>
+</Menu>
+`;

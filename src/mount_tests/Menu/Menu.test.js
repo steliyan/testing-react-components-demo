@@ -8,3 +8,11 @@ it("mount render", () => {
 
   expect(container).toMatchSnapshot();
 });
+
+it("mount rerender with user", () => {
+  const container = mount(<Menu />);
+
+  container.setProps({ user: "Gosho" });
+
+  expect(container).toMatchSnapshot();
+});
