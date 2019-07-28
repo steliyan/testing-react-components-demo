@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mount render 1`] = `
+<Counter>
+  <div>
+    <p>
+      Current count is: 
+      <b>
+        1
+      </b>
+    </p>
+    <button
+      onClick={[Function]}
+    />
+  </div>
+</Counter>
+`;
