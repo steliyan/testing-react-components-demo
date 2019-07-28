@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mount render 1`] = `
+<Menu>
+  <div>
+    Navigation:
+    <Home>
+      <MenuItem
+        text="Home"
+      >
+        <div>
+          Home
+          <button>
+            Home
+          </button>
+        </div>
+      </MenuItem>
+    </Home>
+    <About>
+      <MenuItem
+        text="About"
+      >
+        <div>
+          About
+          <button>
+            About
+          </button>
+        </div>
+      </MenuItem>
+    </About>
+  </div>
+</Menu>
+`;
