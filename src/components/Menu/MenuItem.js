@@ -1,6 +1,6 @@
 import React from "react";
 
-export const MenuItem = ({ text }) => {
+const MenuItem = ({ text }) => {
   return (
     <div>
       {text}
@@ -8,3 +8,5 @@ export const MenuItem = ({ text }) => {
     </div>
   );
 };
+
+export default MenuItem;
